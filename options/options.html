@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+
+  <!--bootstrap-->
+  <link rel="stylesheet" href="bootstrap.min.css">
+
+  <!--custom-->
+  <link rel="stylesheet" href="options.css">
+</head>
+
+<body>
+  <form>
+    <section id="redirect">
+      <div class="container">
+        <div class="my-2 shadow p-3 mb-5 bg-white rounded">
+          <h3><a href="#redirect">Redirect</a></h3><button id="addRedirectRule" type="button"
+            class="btn btn-info btn-sm my-1">+ New Rule</button>
+          <div class="accordion" id="accordionRedirect">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="agent">
+      <div class="container">
+        <div class="my-2 shadow p-3 mb-5 bg-white rounded">
+          <h3><a href="#agent">User-Agent</a></h3><button id="addAgentRule" type="button"
+            class="btn btn-info btn-sm my-1">+ New Rule</button>
+          <div class="accordion" id="accordionAgent">
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="container mt-3">
+      <button type="submit" class="btn btn-primary mt-2">儲存</button>
+    </div>
+  </form>
+
+
+  <!--bootstrap-->
+  <script src="jquery-3.5.1.slim.min.js"></script>
+  <script src="bootstrap.bundle.min.js"></script>
+
+  <!--custom-->
+  <script src="options.js"></script>
+
+</body>
+
+</html>
